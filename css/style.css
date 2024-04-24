@@ -1,5 +1,59 @@
-*{
-    margin: 0;
-    padding: 0;
-    
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2em;
+}
+#menu-1 {
+  
+  height: 100vh;
+
+  /* agregar una imagen de fondo*/
+  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://images.pexels.com/photos/4009401/pexels-photo-4009401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu-2 {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu-2 input {
+  width: 300px;
+  border-radius: 1em;
+}
+ 
+hr{
+  width: 400px;
+  color: white;
+  
+
+}
+
+.contenedor-peliculas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
