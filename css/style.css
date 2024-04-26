@@ -16,12 +16,12 @@ h2 {
   font-size: 2em;
 }
 #menu-1 {
-  
   height: 100vh;
 
   /* agregar una imagen de fondo*/
-  
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://images.pexels.com/photos/4009401/pexels-photo-4009401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("https://images.pexels.com/photos/4009401/pexels-photo-4009401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
 
   background-size: cover;
   background-position: center;
@@ -44,16 +44,30 @@ h2 {
   width: 300px;
   border-radius: 1em;
 }
- 
-hr{
+
+hr {
   width: 400px;
   color: white;
-  
-
 }
 
 .contenedor-peliculas {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+#menu-4 {
+  border-top: solid 3px rgba(172, 28, 28, 0.522);
+}
+#menu-4 .contenedor {
+  display: flex;
+  
+  overflow-x: scroll;
+}
+#menu-4 .contenedor .item {
+  border: 1px solid red;
+  border-radius: 25px;
+
+  min-width: 170px;
+  margin-left: 4em;
 }
